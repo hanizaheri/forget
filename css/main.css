@@ -400,19 +400,39 @@ iframe {
   opacity: 1;
 }
 
-#create{
+#main {
+  /*padding-top: 70%;*/
+  padding-bottom: 20%;
+  text-align: center;
   width: 100%;
-  margin: 0 auto;
-  width: 200px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.create-confirmation{
+  width: 300px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
+}
+
+#create{
   font-family: Poppins-Regular;
   -webkit-text-size-adjust: 100%;
-  margin-top: 40%;
   display:flex;
   font-weight: bold;
-  font-size: 250%;
+  font-size: 200%;
   flex-direction: row;
   justify-content: center;
   align-items: center;
