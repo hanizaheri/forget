@@ -9,7 +9,8 @@
  function myFunction(){
      if (flagNeed) {
          document.getElementById("limiter").style.display = 'none';
-         document.getElementById('create').innerHTML = 'Password changed!';
+         document.getElementById("main").style.display = 'flex';
+         document.getElementById('create').innerHTML = 'Password Changed!';
          jsConfetti.addConfetti();
      }
      else{
